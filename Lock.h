@@ -3,8 +3,10 @@
  */
 
 class Lock {
-	std::string name;
+	std::string lname;
 	Lock();
-	// Only server should be able to create a Lock
+	/* 
+	 * Only server should be able to create a Lock
+	 */
 	friend class LockServer;
 };

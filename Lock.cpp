@@ -6,6 +6,6 @@ using namespace std;
 
 Lock::Lock(){
 
-	name = "LockName";
-	cout<<"Lock "<<name<<" created."<<endl;
+	lname = "LockName";
+	cout<<"Lock "<<lname<<" created."<<endl;
 }
